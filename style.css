@@ -166,3 +166,12 @@ button {
     border-width: 2px;
     border-style: solid;
 }
+
+.footer {
+    min-height: 100px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
