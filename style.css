@@ -75,7 +75,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    margin: 32px 0px;
+    margin: 50px 0px 150px 0px;
 }
 
 .info-header {
@@ -107,4 +107,25 @@ button {
 .info-button-subtext {
     max-width: 150px;
     text-align: center;
+}
+
+.quote-container {
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0px;
+    padding: 100px 300px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
 }
