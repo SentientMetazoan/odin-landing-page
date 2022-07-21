@@ -17,6 +17,8 @@ button {
     padding: 8px 32px;
 }
 
+/* HEADER SECTION */
+
 .header {
     padding: 24px 200px;
     background-color: #1F2937;
@@ -45,6 +47,8 @@ button {
     gap:32px;
 }
 
+
+
 .hero-info {
     flex-flow: column nowrap;
     align-items: flex-start;
@@ -69,6 +73,8 @@ button {
     justify-content: center;
     align-items:center;
 }
+
+/* INFO SECTION */
 
 .info-container {
     flex-flow: column nowrap;
@@ -109,6 +115,7 @@ button {
     text-align: center;
 }
 
+/* QUOTE SECTION */
 .quote-container {
     flex-flow: column nowrap;
     align-items: center;
@@ -128,4 +135,34 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+
+/* CALL TO ACTION SECTION */
+
+.action-container {
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 48px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.action-text-container {
+    flex-flow:column nowrap;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.action-text-top {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#action-button {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
 }
