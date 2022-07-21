@@ -1,0 +1,71 @@
+.flex-container {
+    display: flex;
+}
+
+body {
+    margin:0px;
+    font-family: Ubuntu;
+}
+
+button {
+    color:white;
+    background-color:#3882F6;
+    font-size:16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 8px 32px;
+}
+
+.header {
+    padding: 24px 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:32px;
+}
+
+.header-top {
+    justify-content:space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    gap: 16px;
+}
+
+.header-bottom {
+    justify-content: space-between;
+    margin: 72px 0px;
+    gap:32px;
+}
+
+.hero-info {
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap:16px;
+    max-width: 450px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-img {
+    text-align: center;
+    background-color: grey;
+    flex: 1;
+    justify-content: center;
+    align-items:center;
+}
